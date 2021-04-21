@@ -1,0 +1,15 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin: auto; 
+    width: 30%;
+    padding: 20px;
+}
+input[type="text"]{
+    float: right;
+}
+.row{
+    margin: 20px;
+}
