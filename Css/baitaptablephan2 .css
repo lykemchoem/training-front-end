@@ -1,0 +1,15 @@
+table, tr, td, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th {
+    text-align: center;
+}
+table {
+    width: 50%;
+    height: 50%;
+    margin: auto;
+}
+td {
+    text-align: center;
+}

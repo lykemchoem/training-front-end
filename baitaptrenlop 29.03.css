@@ -1,0 +1,62 @@
+.container {
+    background-color: rgb(238, 130, 238);
+    width: 30%;
+    margin: auto;
+    font-family: sans-serif;
+    padding: 60px;
+    height: 45%;
+}
+.Sendmess {
+    font-weight: bold;
+    font-size: 30px;
+}
+.info {
+    display: flex;
+    font-weight: bold;
+    font-size: 20px;
+    width: 100%;
+    color: rgb(100, 200, 40);
+}
+.info input {
+    width: 100%;
+    height: 35px;
+}
+#name {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+#email {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+.email {
+    padding-left: 30px;
+}
+.message {
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(100, 200, 40);
+}
+#message {
+    display: flex;
+    margin-top: 10px;
+    width: 457px;
+    height: 67px;
+    outline: none;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+.submit{
+    height: 50px;
+    width: 90px;
+    color: red;
+    cursor: crosshair;
+    font-size: 20px;
+    background-color: blue;
+    outline: none;
+    float: right;
+    border-radius: 10px;
+}

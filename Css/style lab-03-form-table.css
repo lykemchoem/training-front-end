@@ -1,0 +1,21 @@
+input {
+    border-style: solid;
+    border-color: coral;
+}
+:focus {
+    outline: none;
+}
+table {
+        width: 30%;
+        height: 50%;
+        border-style: solid;
+        border-color: blue;
+        border-width: 3px;
+        padding: 30px;
+        float: right;
+        margin-top: -62px;
+        margin-right: 450px;
+}       
+hr {
+        border-top: 1px solid grey;
+}

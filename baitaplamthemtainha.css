@@ -1,0 +1,112 @@
+#title{
+    color: white;
+    background-color: blue;
+    padding-left: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.container{
+    padding-left: 90px;
+    font-family: sans-serif;
+    width: 55%;
+    text-align: justify;
+}
+#Hugo{
+    font-size: 50px;
+    display: flex;
+    padding-top: 20px;
+}
+#text-hugo{
+    color: grey;
+    font-size: 14px;
+}
+.Theme{
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+#Creating-Theme{
+    display: flex;
+    font-size: 30px;
+}
+#text-theme{
+    color: grey;
+    font-size: 14px;
+    display: flex;
+    padding-bottom: 20px
+}
+#text1{
+    font-size: 14px;
+}
+#read{
+    font-size: 14px;
+
+}
+#Migrate{
+    font-size: 30px;
+    display: flex;
+}
+#text-migrate{
+    color: grey;
+    font-size: 14px;
+    padding-bottom: 20px;
+    display: flex;
+}
+#text2{
+    font-size: 14px;
+}
+#About {
+    font-size: 20px;
+    display: flex;
+    padding-bottom: 10px;
+}
+#text-about{
+    font-size: 14px;
+}
+#text-about-1{
+    color: blue;
+    font-size: 14px;
+}
+.About {
+    float: right;
+    margin-top: 150px;
+    margin-right: 350px;
+    width: 140px;
+}
+#recent{
+    font-size: 20px;
+    display: flex;
+    padding-top: 10px;
+}
+#text-recent{
+    font-size: 14px;
+    display: flex;
+    padding-top: 5px;
+    color: blue;
+}
+#text-recent2{
+    font-size: 14px;
+    color: blue;
+    display: flex;
+    padding-bottom: 10px;
+}
+#Links{
+    font-size: 20px;
+}
+#Link1{
+    display: flex;
+    padding-top: 5px;
+    font-size: 14px;
+    color: blue;
+}
+#Link2{
+    display: flex;
+    padding-top: 5px;
+    font-size: 14px;
+    color: blue;
+}
+body{
+    margin: auto;
+}
+a:link{
+    text-decoration: none;
+}

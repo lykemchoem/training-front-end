@@ -1,0 +1,43 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Lab 02 exsercise 01</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="container">
+    <!-- full name -->
+    <div class="row">
+      <label for="full-name">Họ và Tên</label>
+      <input type="text" id="full-name">
+    </div>
+    <!-- first name -->
+    <div class="row">
+      <label for="first-name">Họ</label>
+      <input type="text" id="first-name" disabled>
+    </div>
+    <!-- last name -->
+    <div class="row">
+      <label for="last-name">Tên</label>
+      <input type="text" id="last-name" disabled>
+    </div>
+    <!-- middle name -->
+    <div class="row">
+      <label for="middle-name">Họ Lót</label>
+      <input type="text" id="middle-name" disabled>
+    </div>
+    <!-- upperCase full name -->
+    <div class="row">
+      <label for="uppercase-full-name">Viết Hoa Từ Đầu</label>
+      <input type="text" id="uppercase-full-name" disabled>
+    </div>
+    <!-- button execute -->
+    <div class="row">
+      <button id="btn-result-1" onclick="handleNames();">Kết Quả</button>
+    </div>
+  </div>
+  <script src="./main.js"></script>
+</body>
+</html>

@@ -1,0 +1,112 @@
+body{
+    background-color: #fafafa;
+    margin: 0;
+}
+.container{
+    border: 1px solid rgb(0 0 0 / 10%);
+    width: 550px;
+    height: 600px;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-family: sans-serif;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+}
+.img{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.Information{
+    text-align: center;
+    width: 100%;
+}
+#mailtext{
+    padding-right: 230px;
+}
+#mail{
+    display: flex;
+    margin: auto;
+    width: 343px;
+    height: 52px;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 20px;
+    border: 1px solid grey;
+}
+#password{
+    display: flex;
+    margin: auto;
+    width: 343px;
+    height: 52px;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-top: 20px;
+    font-size: xxx-large;
+    border: 1px solid grey;
+}
+#passwordtext{
+    padding-right: 260px;  
+}
+.Mail{
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.Password{
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+input[type=submit] {
+    width: 50%;
+    height: 8%;
+    background-color: #d9dee2;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+::placeholder{
+    color: #a0aec0;    
+}
+a {
+    color: #41cfd9;
+    font-weight: bold;
+}
+.Forgotten{
+    padding-top: 30px;
+    padding-bottom: 10px
+}
+#textF{
+    font-weight: bold;
+}
+.Return{
+    padding-top: 30px;
+}
+input:focus{
+    outline: none;
+}
+.MenuTab{
+    display: flex;
+}
+.MenuTab li{
+    list-style: none;
+    width: 150px;
+    text-align: center;
+    font-size: 12px;
+    padding-top: 50px;
+}
+.textlast{
+    text-align: center;
+    height: 50px;
+    color: white;
+    background-color: #41cfd9;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.MenuTab li a{
+    color: black;
+    text-decoration: none;
+}
